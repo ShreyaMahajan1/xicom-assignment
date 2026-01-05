@@ -1,0 +1,2 @@
+# This file ensures the images directory exists in git
+# Uploaded image files will be ignored by .gitignore

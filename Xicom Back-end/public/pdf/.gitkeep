@@ -1,0 +1,2 @@
+# This file ensures the pdf directory exists in git
+# Uploaded PDF files will be ignored by .gitignore

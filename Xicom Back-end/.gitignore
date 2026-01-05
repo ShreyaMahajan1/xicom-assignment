@@ -15,6 +15,12 @@ dist-ssr
 # Environment variables
 .env
 
+# Uploaded files (user content)
+public/images/*
+public/pdf/*
+!public/images/.gitkeep
+!public/pdf/.gitkeep
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
