@@ -3,12 +3,12 @@ import * as Yup from "yup";
 export const registerSchema = Yup.object().shape({
   firstName: Yup.string()
     .required("First name is required")
-    .min(3, "lastName must be at least 3 characters")
-    .max(20, "lastName cannot be more than 20 characters"),
+    .min(3, "First name must be at least 3 characters")
+    .max(20, "First name cannot be more than 20 characters"),
   lastName: Yup.string()
     .required("Last name is required")
-    .min(3, "lastName must be at least 3 characters")
-    .max(20, "lastName cannot be more than 20 characters"),
+    .min(3, "Last name must be at least 3 characters")
+    .max(20, "Last name cannot be more than 20 characters"),
   email: Yup.string()
     .email("Invalid email address")
     .required("Email is required"),
