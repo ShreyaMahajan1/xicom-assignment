@@ -610,7 +610,7 @@ const RegisterUser = () => {
                       <button
                         type="button"
                         onClick={handleAddDocument}
-                        className="bg-black/80 hover:bg-black/80 text-white rounded-lg transition duration-200 flex items-center justify-center w-12 h-12 shadow-md focus:outline-none focus:ring-2 focus:ring-black "
+                        className="bg-black/80 hover:bg-black/80 text-white rounded-sm transition duration-200 flex items-center justify-center w-12 h-12 shadow-md focus:outline-none focus:ring-2 focus:ring-black "
                         title="Add Document"
                       >
                         <IoMdAdd className="h-6 w-6" />
@@ -641,7 +641,7 @@ const RegisterUser = () => {
               <button
                 type="button"
                 onClick={handleSubmit}
-                className="bg-black/80 hover:from-black-700 hover:to-black-800 text-white font-semibold py-3 px-14 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-200 focus:outline-none focus:ring-4 focus:ring-blue-300"
+                className="bg-black/80 hover:from-black-700 hover:to-black-800 text-white font-semibold py-3 px-14 rounded-sm shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-200 focus:outline-none focus:ring-4 focus:ring-blue-300"
               >
                 Submit
               </button>
