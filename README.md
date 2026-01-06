@@ -51,7 +51,7 @@ A full-stack web application for user registration with document upload function
 
 2. **Setup Backend**
    ```bash
-   cd "Xicom Back-end"
+   cd "XicomBack-end"
    npm install
    cp .env.example .env
    # Edit .env with your MongoDB connection string
@@ -60,7 +60,7 @@ A full-stack web application for user registration with document upload function
 
 3. **Setup Frontend**
    ```bash
-   cd "Xicom Front-end"
+   cd "XicomFront-end"
    npm install
    cp .env.example .env
    # Edit .env if needed (default should work)
